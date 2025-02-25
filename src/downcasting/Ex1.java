@@ -13,7 +13,7 @@ public class Ex1 {
 		// animal이 가리키는 인스턴스 타입이 Human이 맞으면 true
 		if (animal instanceof Human) { // true
 			// 원래 타입의 변수 = 변환하고 싶은 변수
-			Human human = (Human) animal;
+			Human human = (Human) animal; // 복제의 개념(?)
 			human.readBook();
 			
 			// 타입을 확인해야 하는 이유:
